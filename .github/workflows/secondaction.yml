@@ -2,9 +2,9 @@ name: second practice action
 on: workflow_dispatch
 jobs:
   second-workflow:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Priniting things
-        - run: |
+    runs-on: ubuntu-latest
+    steps:
+      - name: Priniting things
+      - run: |
             echo "Hello sathya"
             echo "Bye"
